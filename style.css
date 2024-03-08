@@ -1,0 +1,205 @@
+body{
+    background: #680000;
+    font-family: 'Josefin', sans-serif;
+}
+.Logo{
+    color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.text{
+    color: #fff;
+    font-size: 70px;
+    margin-left: 50px;
+}
+.text-2{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.btn{
+    width: 265px;
+height: 66px;
+flex-shrink: 0;
+background-color: #fff;
+color: #680000;
+border: none;
+margin-left: 50px;
+cursor: pointer;
+}
+.image{
+    margin-left: 650px;
+    margin-top: -500px;
+}
+.text-3{
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.container-2{
+    background-color: darkred;
+    border-radius: 10px;
+}
+.h4{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-4{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+.text-5{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top: -25px;
+}
+.btn-2{
+    width: 265px;
+    height: 66px;
+    background-color: #fff;
+    color: #680000;
+    margin-left: 525px;
+    border: none;
+    cursor: pointer;
+}
+.image-2{
+    margin-top: 50px;
+}
+.text-6{
+    color: #fff;
+    font-size: 70px;
+    margin-left: 600px;
+    margin-top: -600px;
+}
+.text-7{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 610px;
+}
+.btn-3{
+    width: 265px;
+    height: 66px;
+    background-color: #fff;
+    color: #680000;
+    border: none;
+    margin-left: 610px;
+    cursor: pointer;
+}
+.text-8{
+    color: #fff;
+    font-size: 70px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+.text-9{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.btn-4{
+    width: 265px;
+    height: 66px;
+    color: #680000;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.image-3{
+    margin-left: 650px;
+    margin-top: -375px;
+}
+.Logo-2{
+    color: #fff;
+}
+.text-10{
+    color: #fff;
+}
+.text-11{
+    color: #fff;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.footer-2{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-12{
+    margin-left: 125px;
+}
+.text-13{
+    margin-right: 170px;
+}
+.text-final{
+    margin-left: 50px;
+}
+.final{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    background-color: brown;
+    color: #fff;
+    margin-left: 1100px;
+}
+.top{
+    margin-top: -100px;
+}
+/* Медиа-запрос для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text,
+    .text-2,
+    .text-3,
+    .text-4,
+    .text-5,
+    .text-6,
+    .text-7,
+    .text-8,
+    .text-9,
+    .text-10,
+    .text-11 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .btn,
+    .btn-2,
+    .btn-3,
+    .btn-4 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .image,
+    .image-2,
+    .image-3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .top {
+        margin-top: 20px;
+    }
+}
+
+/* Дополнительные медиа-запросы можно добавить для других устройств */
